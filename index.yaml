@@ -1,1 +1,30 @@
-test
+apiVersion: v1
+entries:
+  elk:
+  - apiVersion: v2
+    appVersion: "1"
+    created: "2020-03-24T16:39:12.8613535+02:00"
+    digest: 257baba823c9b6e651f43d99f275b3ca01c621525ffbad99676ae3b22c94de31
+    name: elk
+    urls:
+    - https://github.com/yaniva/helm-charts/elk-1.tgz
+    version: "1"
+  kafka:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2020-03-24T16:39:12.8623445+02:00"
+    digest: a62ebe101d3b905c1083dd3b70eaf11572a0850f58c2b2d8b486dd40fa5579ad
+    name: kafka
+    urls:
+    - https://github.com/yaniva/helm-charts/kafka-0.1.0.tgz
+    version: 0.1.0
+  zooKeeper:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2020-03-24T16:39:12.8632468+02:00"
+    digest: 7b68c8fa05056f390eefecf0c24663078715c7521b565c799f7ca5d8e326e65a
+    name: zooKeeper
+    urls:
+    - https://github.com/yaniva/helm-charts/zooKeeper-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-24T16:39:12.8593043+02:00"
